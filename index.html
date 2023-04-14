@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figmaland</title>
     <link rel="figma logo" href="img/logo/figma-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header class="header">
         <nav class="header__nav">
-            <div class="header__logo-container">
-                <img src="img/logo/figmaland-logo-nav.png" width="188" alt="Figmaland logo">
-            </div>
             <div class="header__menu menu">
                 <a href="#" class="menu__item">Home</a>
                 <a href="#" class="menu__item">Product</a>
@@ -20,11 +18,22 @@
                 <a href="#" class="menu__item">About</a>
                 <a href="#" class="menu__item">Contact</a>
             </div>
+            <div class="header__logo-container">
+                <img src="img/logo/figmaland-logo-nav.png" width="188" alt="Figmaland logo">
+            </div>
+            <div class="header__logo-sm">
+                <img src="img/logo/twitter-logo.png" alt="twitter logo">
+                <img src="img/logo/facebook-logo.png" alt="facebook logo">
+                <img src="img/logo/linkedin-logo.png" alt="linkedin logo">
+            </div>
         </nav>
         <div class="header__text">
             <h1>The best products start with Figma</h1>
             <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
             <button>Try for free</button>
+        </div>
+        <div class="background">
+            <img src="img/background.png" alt="background header">
         </div>
     </header>
     <main>
@@ -62,10 +71,15 @@
                 </div>
             </div>
         </div>
-        <div>
-            <h2>Fastest way to organize</h2>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-            <button>Try for free</button>
+        <div class="faster">
+            <div class="faster__text">
+                <h2>Fastest way to organize</h2>
+                <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+                <button>Try for free</button>
+            </div>
+            <div class="faster__img">
+                <img src="img/screen-content.png" alt="screen">
+            </div>
         </div>
         <div class="newsletter">
             <p>At your fingertips</p>
