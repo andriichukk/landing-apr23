@@ -1,0 +1,19 @@
+.header {
+    background-image: url(/img/background.png);
+    background-size: cover;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__text {
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    color: white;
+    width: 353px;
+    height: 185px;
+}
